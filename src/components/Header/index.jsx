@@ -1,16 +1,15 @@
 import React from 'react';
+import SearchBar from '../SearchBar';
+import HeaderLogo from '../HeaderLogo';
 import OffCanvas from '../OffCanvas';
 import './style.css';
 
 export default function Header() {
   return (
-   <header className="header">
-    <div className="header-logo-container">
-      <h2>Logo</h2>
-    </div>
-    <div className="header-button">
+    <header className="header">
+      <HeaderLogo />
+      <SearchBar />
       <OffCanvas />
-    </div>
-   </header>
+    </header>
   )
 }

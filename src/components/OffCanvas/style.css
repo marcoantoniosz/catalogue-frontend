@@ -1,3 +1,41 @@
 .category {
     list-style: none;
 }
+
+.header-offcanvas-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offc {
+    background-color: #FF683E;
+}
+
+.offc-title {
+    width: 100vw;
+    text-align: center;
+    color: #0000F7;
+    font-size: 1.5rem;
+}
+
+.offc-ul {
+    padding-right: 2.1em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offc-ul li {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.offc-ul button {
+    width: 15em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}

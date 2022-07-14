@@ -23,14 +23,14 @@ export default function Header() {
     }, []);
   
     return (
-      <>
-        <Hamburger toggled={ show } toggle={ handleShow } />
-        <Offcanvas show={show} onHide={handleClose}>
+      <div className="header-offcanvas-container">
+        <Hamburger color="#0000F7" toggled={ show } toggle={ handleShow } />
+        <Offcanvas className="offc-close" show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Categorias</Offcanvas.Title>
+            <Offcanvas.Title className="offc-title">Categorias</Offcanvas.Title>
           </Offcanvas.Header>
-          <Offcanvas.Body>
-            <ul>
+          <Offcanvas.Body className="offc">
+            <ul className="offc-ul">
               {categories.map(category => <CategoriesLink
               close={handleClose}
               key={category.id}
@@ -39,6 +39,6 @@ export default function Header() {
             </ul>
           </Offcanvas.Body>
         </Offcanvas>
-      </>
+      </div>
     );
   }

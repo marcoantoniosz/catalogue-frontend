@@ -27,3 +27,9 @@ export const fetchImagesByProductId = async (id) => {
     const imagesJSON = await images.json();
     return imagesJSON;
 };
+
+export const fetchProductsByQuery = async (query) => {
+    const products = await fetch(`https://backendcatalogue.herokuapp.com/products/search?q=${query}`);
+    const productsJSON = await products.json();
+    return productsJSON;
+};

@@ -28,7 +28,7 @@ export default function Home() {
             Exibir todos
           </button>
         </div>
-        <div className="products-container">
+        { products.message ? <h1>Nenhum produto encontrado</h1> : <div className="products-container">
           { products.map(p => <ProductCard
             id={ p.id }
             key={ p.id }
@@ -36,7 +36,7 @@ export default function Home() {
             price={ p.price }
             thumbnail={ p.thumbnail }
           />) }
-        </div>
+        </div> }
       </main>
       <Footer />
     </>
