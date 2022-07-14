@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Ig from '../../images'
 
 export default function Footer() {
   return (
