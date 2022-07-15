@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useCallback } from 'react';
 import AppContext from '../../context/AppContext';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -11,14 +11,14 @@ export default function Home() {
   
   const { products, setProducts } = useContext(AppContext);
 
-  const fetchProducts = async () => {
+  const fetchProducts = useCallback(async () => {
     const products = await fetchAllProducts();
     setProducts(products);
-  }
+  }, [setProducts])
 
   useEffect(() => {
     fetchProducts();
-  }, []);
+  }, [fetchProducts]);
 
   return (
     <>

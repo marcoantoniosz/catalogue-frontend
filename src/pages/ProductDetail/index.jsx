@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import ProductCard from '../../components/ProductCard';
 import AditionalImages from '../../components/AditionalImages';
 import { useParams } from 'react-router-dom';
@@ -15,15 +15,15 @@ export default function ProductDetail() {
   const [product, setProduct] = useState([]);
   const [images, setImages] = useState([]);
 
-  const fetchProduct = async () => {
+  const fetchProduct = useCallback(async () => {
     const product = await fetchProductById(id);
     setProduct(product[0]);
-  };
+  }, [setProduct, id]);
 
-  const fetchImages = async () => {
+  const fetchImages = useCallback(async () => {
     const images = await fetchImagesByProductId(id);
     setImages(images[0].imgs);
-  };
+  }, [setImages, id]);
 
   const backToHome = () => {
     navigate('/');
@@ -32,7 +32,7 @@ export default function ProductDetail() {
   useEffect(() => {
     fetchProduct();
     fetchImages();
-  }, []);
+  }, [fetchProduct, fetchImages]);
 
   return (
     <main className="product-detail-main">

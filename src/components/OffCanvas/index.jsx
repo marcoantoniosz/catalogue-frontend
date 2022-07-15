@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from 'react';
 import AppContext from '../../context/AppContext';
 import { Sling as Hamburger } from 'hamburger-react'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { fetchAllCategories } from '../../services/API';
 import CategoriesLink from '../CategoriesLink';
 import './style.css'
 
@@ -16,7 +15,7 @@ export default function Header() {
 
     useEffect(() => {
       fetchCategories();
-    }, []);
+    }, [fetchCategories]);
   
     return (
       <div className="header-offcanvas-container">
