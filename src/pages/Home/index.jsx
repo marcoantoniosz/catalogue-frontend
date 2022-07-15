@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import AppContext from '../../context/AppContext';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import CategoriesContainer from '../../components/CategoriesContainer';
 import { fetchAllProducts } from '../../services/API';
 import ProductCard from '../../components/ProductCard';
 import './style.css';
@@ -28,6 +29,7 @@ export default function Home() {
             Exibir todos
           </button>
         </div>
+        <CategoriesContainer />
         { products.message ? <h1>Nenhum produto encontrado</h1> : <div className="products-container">
           { products.map(p => <ProductCard
             id={ p.id }

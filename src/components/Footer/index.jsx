@@ -1,10 +1,16 @@
 import React from 'react';
-import Ig from '../../images'
+import instagram from '../../icons/instagram.svg';
+import whatsapp from '../../icons/whatsapp.svg';
+import './style.css';
 
 export default function Footer() {
   return (
     <footer>
-        <p>&copy; 2022</p>
+        <nav className="footer-nav">
+          <img className="footer-icon" src={ instagram } alt="instagram" />
+          <p>Nos encontre</p>
+          <img className="footer-icon" src={ whatsapp } alt="whatsapp" />
+        </nav>
     </footer>
   )
 }

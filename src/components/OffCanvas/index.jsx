@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import AppContext from '../../context/AppContext';
 import { Sling as Hamburger } from 'hamburger-react'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { fetchAllCategories } from '../../services/API';
@@ -7,24 +8,19 @@ import './style.css'
 
 export default function Header() {
 
-    const [categories, setCategories] = useState([]);
+    const { categories, fetchCategories } = useContext(AppContext);
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const fetchData = async () => {
-      const response = await fetchAllCategories();
-      setCategories(response);
-    }
-
     useEffect(() => {
-      fetchData();
+      fetchCategories();
     }, []);
   
     return (
       <div className="header-offcanvas-container">
-        <Hamburger color="#0000F7" toggled={ show } toggle={ handleShow } />
+        <Hamburger color="#eb445b" toggled={ show } toggle={ handleShow } />
         <Offcanvas className="offc-close" show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
             <Offcanvas.Title className="offc-title">Categorias</Offcanvas.Title>
