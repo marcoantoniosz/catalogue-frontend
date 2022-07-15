@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/catalogue-backend/static/css/main.3d7ee495.css",
+    "main.js": "/catalogue-backend/static/js/main.8c02eb5e.js",
+    "static/media/logo.png": "/catalogue-backend/static/media/logo.bb8f4eab8c9589058c55.png",
+    "static/media/burguer.svg": "/catalogue-backend/static/media/burguer.1083ab9ac5edcf9f9a85711de9034d64.svg",
+    "static/media/instagram.svg": "/catalogue-backend/static/media/instagram.813fd06b51b26e101fbbdde32e64af13.svg",
+    "static/media/whatsapp.svg": "/catalogue-backend/static/media/whatsapp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
+    "static/media/pizza.svg": "/catalogue-backend/static/media/pizza.c436d8d973cae701d346ff6fd891b0d2.svg",
+    "static/media/drink.svg": "/catalogue-backend/static/media/drink.c004a3ff56c03725d9563d4319283283.svg",
+    "index.html": "/catalogue-backend/index.html",
+    "main.3d7ee495.css.map": "/catalogue-backend/static/css/main.3d7ee495.css.map",
+    "main.8c02eb5e.js.map": "/catalogue-backend/static/js/main.8c02eb5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d7ee495.css",
+    "static/js/main.8c02eb5e.js"
+  ]
+}
