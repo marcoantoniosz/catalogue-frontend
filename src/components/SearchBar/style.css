@@ -1,0 +1,9 @@
+.header-form input {
+    border: none;
+    border-radius: 30px;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 1em;
+    font-family: "FontAwesome";
+    border: 1px solid #eb445b;
+}

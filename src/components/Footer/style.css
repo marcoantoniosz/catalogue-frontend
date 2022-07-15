@@ -1,0 +1,16 @@
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav p {
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.footer-icon {
+    width: 1.8em;
+    height: 1.8em;
+    padding-top: 2px;
+}
