@@ -14,7 +14,8 @@
 }
 
 .all-button button {
-    width: 9em;
+    width: 100%;
+    max-width: 150px;
     border-radius: 30px;
     height: 3em;
     background-color: #f0cdab;

@@ -20,5 +20,6 @@ footer {
 }
 main {
   margin-top: 3.5em;
+  height: auto;
   background-color: #F7F6F6;
 }

@@ -4,8 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
-  height: 100%;
 }
 
 .category-card {
@@ -17,12 +15,14 @@
     justify-content: center;
     font-size: 12px;
     font-weight: bold;
-    width: 30vw;
+    width: 100%;
+    max-width: 110px;  
     border-radius: 15px;
     padding-bottom: 5px;
     background-color: #f5938b;
 }
 
 .category-card img {
-  width: 20vw;
+  width: 100%;
+  max-width: 60px;
 }
