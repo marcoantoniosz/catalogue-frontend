@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/catalogue-frontend/static/css/main.3d7ee495.css",
-    "main.js": "/catalogue-frontend/static/js/main.4feb9196.js",
-    "static/media/logo.png": "/catalogue-frontend/static/media/logo.bb8f4eab8c9589058c55.png",
-    "static/media/burguer.svg": "/catalogue-frontend/static/media/burguer.1083ab9ac5edcf9f9a85711de9034d64.svg",
-    "static/media/instagram.svg": "/catalogue-frontend/static/media/instagram.813fd06b51b26e101fbbdde32e64af13.svg",
-    "static/media/whatsapp.svg": "/catalogue-frontend/static/media/whatsapp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
-    "static/media/pizza.svg": "/catalogue-frontend/static/media/pizza.c436d8d973cae701d346ff6fd891b0d2.svg",
-    "static/media/drink.svg": "/catalogue-frontend/static/media/drink.c004a3ff56c03725d9563d4319283283.svg",
-    "index.html": "/catalogue-frontend/index.html",
-    "main.3d7ee495.css.map": "/catalogue-frontend/static/css/main.3d7ee495.css.map",
-    "main.4feb9196.js.map": "/catalogue-frontend/static/js/main.4feb9196.js.map"
+    "main.css": "/static/css/main.0e8af953.css",
+    "main.js": "/static/js/main.56bbaadb.js",
+    "static/media/logo.png": "/static/media/logo.bb8f4eab8c9589058c55.png",
+    "static/media/burguer.svg": "/static/media/burguer.1083ab9ac5edcf9f9a85711de9034d64.svg",
+    "static/media/instagram.svg": "/static/media/instagram.813fd06b51b26e101fbbdde32e64af13.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
+    "static/media/pizza.svg": "/static/media/pizza.c436d8d973cae701d346ff6fd891b0d2.svg",
+    "static/media/drink.svg": "/static/media/drink.c004a3ff56c03725d9563d4319283283.svg",
+    "index.html": "/index.html",
+    "main.0e8af953.css.map": "/static/css/main.0e8af953.css.map",
+    "main.56bbaadb.js.map": "/static/js/main.56bbaadb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d7ee495.css",
-    "static/js/main.4feb9196.js"
+    "static/css/main.0e8af953.css",
+    "static/js/main.56bbaadb.js"
   ]
 }
