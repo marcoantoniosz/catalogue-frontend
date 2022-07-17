@@ -1,4 +1,20 @@
+@media screen and (min-width: 768px) {
+  .products-container {
+    flex-direction: row !important;
+  }
+}
+
+
+
+
+.home-main {
+	margin-top: 10rem;
+}
+
 .products-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -10,15 +26,17 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-top: 10%;
+    margin-bottom: 5rem;
 }
 
 .all-button button {
     width: 100%;
-    max-width: 150px;
+    max-width: 11rem;
     border-radius: 30px;
-    height: 3em;
-    background-color: #f0cdab;
+    height: 3.6rem;
+    background-color: #B00505;
     border: none;
     font: bolder;
+    color: white;
+    font-size: 1.2rem;
 }
