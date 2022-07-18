@@ -16,16 +16,21 @@ export default function CategoriesContainer() {
   };
 
   return (
-    <section className="categories-container">
-      <div onClick={filterProducts} id="000001" className="category-card">
-        <img id="000001" src={burguer} alt="burguer" />
+    <aside className="categories-aside">
+      <div className="box-title">
+        Exibir por categoria
       </div>
-      <div onClick={filterProducts} id="000002" className="category-card">
-        <img id="000002" src={pizza} alt="pizza" />
-      </div>
-      <div onClick={filterProducts} id="000003" className="category-card">
-        <img id="000003" src={drink} alt="drink" />
-      </div>
-    </section>
+      <section className="categories-container">
+        <div onClick={filterProducts} id="000001" className="category-card">
+          <img id="000001" src={burguer} alt="burguer" />
+        </div>
+        <div onClick={filterProducts} id="000002" className="category-card">
+          <img id="000002" src={pizza} alt="pizza" />
+        </div>
+        <div onClick={filterProducts} id="000003" className="category-card">
+          <img id="000003" src={drink} alt="drink" />
+        </div>
+      </section>
+    </aside>
   )
 }
