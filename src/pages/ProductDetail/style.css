@@ -11,8 +11,8 @@
   border-radius: 30px;
   align-items: center;
   background-color: #6ed47f;
-  width: 6rem;
-  height: 6rem;
+  width: 4.5rem;
+  height: 4.5rem;
   margin-top: 20px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .back-button img {
-    width: 4rem;
+    width: 2.5rem;
 }
 
 .react-slideshow-container {
