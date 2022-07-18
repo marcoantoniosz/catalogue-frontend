@@ -1,11 +1,16 @@
 @media screen and (min-width: 768px) {
   .products-container {
     flex-direction: row !important;
+    max-width: 600px !important;
   }
 }
 
-
-
+@media screen and (min-width: 1024px) {
+  .products-container {
+    max-width: 900px !important;
+  }
+}
+  
 
 .home-main {
 	margin-top: 10rem;
@@ -14,12 +19,13 @@
 .products-container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly ;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .all-button {
@@ -39,4 +45,10 @@
     font: bolder;
     color: white;
     font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 100px;
 }

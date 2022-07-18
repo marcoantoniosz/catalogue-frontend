@@ -30,7 +30,7 @@ export default function Home() {
           </button>
         </div>
         <CategoriesContainer />
-        { products.message ? <h1>Nenhum produto encontrado</h1> : <div className="products-container">
+        { products.message ? <h1 className="not-found">Nenhum produto encontrado</h1> : <div className="products-container">
           { products.map(p => <ProductCard
             id={ p.id }
             key={ p.id }

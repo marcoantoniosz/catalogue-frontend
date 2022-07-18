@@ -21,7 +21,7 @@ export default function Header() {
       <div className="header-offcanvas-container">
         <Hamburger color="#B00505" toggled={ show } toggle={ handleShow } />
         <Offcanvas className="offc-close" show={show} onHide={handleClose}>
-          <Offcanvas.Header closeButton>
+          <Offcanvas.Header className="offc-header" closeButton>
             <Offcanvas.Title className="offc-title">Categorias</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body className="offc">

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import ProductCard from '../../components/ProductCard';
-import AditionalImages from '../../components/AditionalImages';
 import { useParams } from 'react-router-dom';
 import { fetchProductById } from '../../services/API';
 import './style.css';
+import Return from '../../icons/return.svg';
 import { fetchImagesByProductId } from '../../services/API';
 const { useNavigate } = require('react-router-dom');
 
@@ -13,7 +13,7 @@ export default function ProductDetail() {
   const { id } = useParams();
 
   const [product, setProduct] = useState([]);
-  const [images, setImages] = useState([]);
+  const [setImages] = useState([]);
 
   const fetchProduct = useCallback(async () => {
     const product = await fetchProductById(id);
@@ -21,8 +21,8 @@ export default function ProductDetail() {
   }, [setProduct, id]);
 
   const fetchImages = useCallback(async () => {
-    const images = await fetchImagesByProductId(id);
-    setImages(images[0].imgs);
+    const imgs = await fetchImagesByProductId(id);
+    setImages(imgs[0].imgs);
   }, [setImages, id]);
 
   const backToHome = () => {
@@ -43,12 +43,9 @@ export default function ProductDetail() {
         price={ product.price }
         thumbnail={ product.thumbnail }
       />
-      <div className="images-container">
-        { images.map((image, index) => <AditionalImages key={ index } src={ image.img } />) }
-      </div>
       <div className="back-button">
         <button onClick={ backToHome }>
-          Voltar
+          <img src={ Return } alt="return-icon" />
         </button>
       </div>
     </main>
