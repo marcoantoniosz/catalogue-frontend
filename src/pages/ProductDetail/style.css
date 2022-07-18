@@ -1,3 +1,59 @@
+@media screen and (min-width: 375px) {
+  .image-container img {
+    max-width: 37rem !important;
+    height: 37rem !important;
+  }
+
+  .back-button {
+    margin-top: 7rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media screen and (min-width: 393px) {
+  .image-container img {
+    max-width: 40rem !important;
+    height: 40rem !important;
+  }
+
+  .back-button {
+    margin-top: 7rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image-container img {
+    max-width: 50rem !important;
+    height: 50rem !important;
+  }
+
+  .back-button {
+    margin-top: 13rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 13rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-container img {
+    max-width: 60rem !important;
+    height: 60rem !important;
+  }
+
+  .back-button {
+    margin-top: 17rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 17rem !important;
+  }
+}
+
 .product-detail-main {
     display: flex;
     flex-direction: column;
@@ -11,8 +67,9 @@
   border-radius: 30px;
   align-items: center;
   background-color: #6ed47f;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -24,7 +81,7 @@
 }
 
 .back-button img {
-    width: 2.5rem;
+    width: 2rem;
 }
 
 .react-slideshow-container {
@@ -42,10 +99,10 @@
 
 .image-container img {
     width: 100%;
-    max-width: 40rem;
-    height: 40rem;
+    max-width: 32rem;
+    height: 32rem;
 }
 
 .product-detail-main .product {
-
+  margin-bottom: 5rem;
 }

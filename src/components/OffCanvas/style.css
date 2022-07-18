@@ -9,10 +9,9 @@
     }
 
     .offc-title {
-        width: 100vw;
-        text-align: center;
         color: #431C00;
-        font-size: 3rem;
+        font-size: 1.7rem;
+        margin-right: 10px;
     }
 
     .offc-ul {
@@ -37,5 +36,10 @@
     }
 
     .offc {
-        background-color: #B00505;
+      background-color: #E5E2E0;
+    }
+
+    .offc-container {
+      width: 100%;
+      max-width: 130px !important;
     }

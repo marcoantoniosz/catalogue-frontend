@@ -26,7 +26,7 @@ export default function Home() {
       <main className="home-main">
         <div className="all-button">
           <button onClick={fetchProducts}>
-            Exibir todos
+            Inicio
           </button>
         </div>
         <CategoriesContainer />
