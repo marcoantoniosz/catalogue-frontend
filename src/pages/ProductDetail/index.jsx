@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import ProductCard from '../../components/ProductCard';
-import AditionalImages from '../../components/AditionalImages';
 import { useParams } from 'react-router-dom';
 import { fetchProductById } from '../../services/API';
 import './style.css';
@@ -14,7 +13,7 @@ export default function ProductDetail() {
   const { id } = useParams();
 
   const [product, setProduct] = useState([]);
-  const [images, setImages] = useState([]);
+  const [setImages] = useState([]);
 
   const fetchProduct = useCallback(async () => {
     const product = await fetchProductById(id);
@@ -22,8 +21,8 @@ export default function ProductDetail() {
   }, [setProduct, id]);
 
   const fetchImages = useCallback(async () => {
-    const images = await fetchImagesByProductId(id);
-    setImages(images[0].imgs);
+    const imgs = await fetchImagesByProductId(id);
+    setImages(imgs[0].imgs);
   }, [setImages, id]);
 
   const backToHome = () => {
