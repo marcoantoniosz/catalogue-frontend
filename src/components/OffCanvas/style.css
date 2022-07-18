@@ -9,9 +9,8 @@
     }
 
     .offc-title {
-        color: #431C00;
+        background-color: #431C00;
         font-size: 1.7rem;
-        margin-right: 10px;
     }
 
     .offc-ul {
@@ -25,21 +24,35 @@
 
     .offc-ul li {
         list-style: none;
-        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+    }
+
+    .offc-ul img {
+      width: 100%;
+      background-color: #431C00;
+    }
+
+    .offc-ul img:hover {
+      background-color: blue;
     }
 
     .offc-ul button {
-        width: 15em;
-        border: 1px solid black;
-        border-radius: 25px;
-        background-color: white;
+      border: none;
     }
 
+
     .offc {
-      background-color: #E5E2E0;
+      background-color: #431C00;
     }
 
     .offc-container {
       width: 100%;
-      max-width: 130px !important;
+      max-width: 65px !important;
+    }
+
+    .offc-header {
+      background-color: #431C00;
     }
