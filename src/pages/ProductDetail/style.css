@@ -1,7 +1,7 @@
 .product-detail-main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -13,7 +13,7 @@
   background-color: #6ed47f;
   width: 4.5rem;
   height: 4.5rem;
-  margin-top: 20px;
+  margin-bottom: 2rem;
 }
 
 .back-button button {
@@ -44,4 +44,8 @@
     width: 100%;
     max-width: 40rem;
     height: 40rem;
+}
+
+.product-detail-main .product {
+
 }
