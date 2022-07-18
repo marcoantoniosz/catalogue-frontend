@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/catalogue-frontend/static/css/main.19d5cb6d.css",
-    "main.js": "/catalogue-frontend/static/js/main.aa2615f9.js",
+    "main.css": "/catalogue-frontend/static/css/main.b4610084.css",
+    "main.js": "/catalogue-frontend/static/js/main.8b05ad57.js",
     "static/media/logo.png": "/catalogue-frontend/static/media/logo.238b2d21ed8eedc0650a.png",
     "static/media/pizza.png": "/catalogue-frontend/static/media/pizza.4d35737a68e270b2ab57.png",
+    "static/media/whatsapp.png": "/catalogue-frontend/static/media/whatsapp.299db583fa407048decb.png",
+    "static/media/instagram.png": "/catalogue-frontend/static/media/instagram.e946a2697ef0bbbc9b04.png",
     "static/media/burger.png": "/catalogue-frontend/static/media/burger.0bcf1adbf76d30897b10.png",
-    "static/media/instagram.svg": "/catalogue-frontend/static/media/instagram.813fd06b51b26e101fbbdde32e64af13.svg",
-    "static/media/whatsapp.svg": "/catalogue-frontend/static/media/whatsapp.202a5bbf98298b6a0c2c4b46f368fa56.svg",
     "index.html": "/catalogue-frontend/index.html",
-    "main.19d5cb6d.css.map": "/catalogue-frontend/static/css/main.19d5cb6d.css.map",
-    "main.aa2615f9.js.map": "/catalogue-frontend/static/js/main.aa2615f9.js.map"
+    "static/media/return.svg": "/catalogue-frontend/static/media/return.d91c65813d6c141422745820f45cccd1.svg",
+    "main.b4610084.css.map": "/catalogue-frontend/static/css/main.b4610084.css.map",
+    "main.8b05ad57.js.map": "/catalogue-frontend/static/js/main.8b05ad57.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d5cb6d.css",
-    "static/js/main.aa2615f9.js"
+    "static/css/main.b4610084.css",
+    "static/js/main.8b05ad57.js"
   ]
 }
