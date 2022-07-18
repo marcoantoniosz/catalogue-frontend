@@ -11,7 +11,7 @@ export default function ProductSlide(props) {
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">
-              <img src={fadeImage.img} />
+              <img alt={ index } src={fadeImage.img} />
             </div>
           </div>
         ))}
