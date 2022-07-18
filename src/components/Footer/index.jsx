@@ -1,6 +1,6 @@
 import React from 'react';
-import instagram from '../../icons/instagram.svg';
-import whatsapp from '../../icons/whatsapp.svg';
+import instagram from '../../icons/instagram.png';
+import whatsapp from '../../icons/whatsapp.png';
 import './style.css';
 
 export default function Footer() {
