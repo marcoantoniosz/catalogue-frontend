@@ -17,14 +17,11 @@ export default function Header() {
       <div className="header-offcanvas-container">
         <Hamburger color="#B00505" toggled={ show } toggle={ handleShow } />
         <Offcanvas placement="end" className="offc-container" show={show} onHide={handleClose}>
-          <Offcanvas.Header className="offc-header" closeButton>
-            <Offcanvas.Title className="offc-title">s</Offcanvas.Title>
-          </Offcanvas.Header>
           <Offcanvas.Body className="offc">
             <ul className="offc-ul">
-              <CategoriesLink close={ handleClose } icon={ burger } />
-              <CategoriesLink close={ handleClose } icon={ drink } />
-              <CategoriesLink close={ handleClose } icon={ pizza } />
+              <CategoriesLink title="burguers" id="000001" close={ handleClose } icon={ burger } />
+              <CategoriesLink title="drinks" id="000003" close={ handleClose } icon={ drink } />
+              <CategoriesLink title="pizzas" id="000002" close={ handleClose } icon={ pizza } />
             </ul>
           </Offcanvas.Body>
         </Offcanvas>

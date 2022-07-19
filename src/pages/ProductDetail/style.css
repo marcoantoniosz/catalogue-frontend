@@ -38,6 +38,9 @@
   .product-detail-main .product {
     margin-bottom: 13rem !important;
   }
+  .react-slideshow-container{
+    width: 70vw !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -51,6 +54,9 @@
   }
   .product-detail-main .product {
     margin-bottom: 17rem !important;
+  }
+  .react-slideshow-container{
+    width: 55vw !important;
   }
 }
 
