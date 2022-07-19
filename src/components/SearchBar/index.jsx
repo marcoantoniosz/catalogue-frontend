@@ -29,7 +29,7 @@ export default function SearchBar() {
   return (
     <div className="header-form">
       <form>
-        <input type="text" placeholder="&#xF002;" value={search} onChange={handleChange} />
+        <input type="text" placeholder="&#xf002;" value={search} onChange={handleChange} />
         <button className="d-none" disabled={ button } type="submit" onClick={handleClick}>Search</button>
       </form>
     </div>

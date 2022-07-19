@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CategoriesLink from '../CategoriesLink';
-import { Sling as Hamburger } from 'hamburger-react';
+import { Turn as Hamburger } from 'hamburger-react';
 import burger from '../../icons/burger.png';
 import pizza from '../../icons/pizza.png';
 import drink from '../../icons/drink.png';
