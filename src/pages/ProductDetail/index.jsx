@@ -31,6 +31,7 @@ export default function ProductDetail() {
   };
 
   useEffect(() => {
+    window.screen.orientation.lock('portrait');
     fetchProduct();
     fetchImages();
   }, [fetchProduct, fetchImages]);
