@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-}
-
 html, body {
   height: 100%;
-  background-color: #E5E2E0;
 }
 
 * {
@@ -35,6 +25,6 @@ footer {
 main {
   min-height: 100vh;
   height: auto;
-  background-color: #E5E2E0;
+  background-color: white;
   z-index: 1;
 }
