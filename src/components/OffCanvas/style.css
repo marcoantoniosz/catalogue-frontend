@@ -14,6 +14,9 @@
         align-items: center;
     }
 
+    .offcanvas-backdrop {
+      background-color: transparent !important;
+    }
 
     .offc-ul {
         padding-right: 2.1em;
@@ -30,7 +33,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 55px;
+        width: 50px;
     }
 
     .offc-ul li:hover {
@@ -51,26 +54,26 @@
 
 
     .offc {
-      background-color: transparent;
-      border-radius: 30px;
-      border: none;
+      margin-top: 20px  ;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .offc-container {
       width: 100%;
-      max-width: 65px;
+      max-width: 90px;
       background-color: transparent;
       border: none;
     }
 
-    .offc-header {
-      background-color: transparent;
-    }
 
     .offcanvas.offcanvas-end {
       border: none !important;
     }
 
     .btn-close {
-      display: none;
+      width: 100%;
+      background: none;
     }

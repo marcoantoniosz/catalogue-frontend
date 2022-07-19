@@ -1,0 +1,53 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    width: 150px;
+}
+
+.login-form {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #2e1300;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #431C00;
+}
+
+.login-form input {
+    border: none;
+    border-radius: 30px;
+}
+
+.login-form button {
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    background-color: #fdc240;
+}
+
+.check {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.check input:checked {
+  color: #fdc240;
+}
+
+.check p {
+    margin: 0;
+}
