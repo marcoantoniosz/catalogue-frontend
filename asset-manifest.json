@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/catalogue-frontend/static/css/main.a5759bfc.css",
-    "main.js": "/catalogue-frontend/static/js/main.755394ed.js",
+    "main.css": "/catalogue-frontend/static/css/main.4ca201ee.css",
+    "main.js": "/catalogue-frontend/static/js/main.2be15bd5.js",
     "static/media/logo.png": "/catalogue-frontend/static/media/logo.238b2d21ed8eedc0650a.png",
-    "static/media/pizza.png": "/catalogue-frontend/static/media/pizza.4d35737a68e270b2ab57.png",
+    "static/media/pizza.png": "/catalogue-frontend/static/media/pizza.7d9f02ddda5ac511d95a.png",
     "static/media/whatsapp.png": "/catalogue-frontend/static/media/whatsapp.299db583fa407048decb.png",
     "static/media/instagram.png": "/catalogue-frontend/static/media/instagram.e946a2697ef0bbbc9b04.png",
-    "static/media/burger.png": "/catalogue-frontend/static/media/burger.0bcf1adbf76d30897b10.png",
     "index.html": "/catalogue-frontend/index.html",
     "static/media/return.svg": "/catalogue-frontend/static/media/return.d91c65813d6c141422745820f45cccd1.svg",
-    "main.a5759bfc.css.map": "/catalogue-frontend/static/css/main.a5759bfc.css.map",
-    "main.755394ed.js.map": "/catalogue-frontend/static/js/main.755394ed.js.map"
+    "main.4ca201ee.css.map": "/catalogue-frontend/static/css/main.4ca201ee.css.map",
+    "main.2be15bd5.js.map": "/catalogue-frontend/static/js/main.2be15bd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5759bfc.css",
-    "static/js/main.755394ed.js"
+    "static/css/main.4ca201ee.css",
+    "static/js/main.2be15bd5.js"
   ]
 }
