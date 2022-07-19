@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import ProductCard from '../../components/ProductCard';
 import { useParams } from 'react-router-dom';
 import { fetchProductById } from '../../services/API';
+import ProductSlide from '../../components/ProductSlide';
 import './style.css';
 import Return from '../../icons/return.svg';
 import { fetchImagesByProductId } from '../../services/API';
@@ -13,7 +14,7 @@ export default function ProductDetail() {
   const { id } = useParams();
 
   const [product, setProduct] = useState([]);
-  const [setImages] = useState([]);
+  const [images, setImages] = useState([]);
 
   const fetchProduct = useCallback(async () => {
     const product = await fetchProductById(id);
@@ -22,7 +23,7 @@ export default function ProductDetail() {
 
   const fetchImages = useCallback(async () => {
     const imgs = await fetchImagesByProductId(id);
-    setImages(imgs[0].imgs);
+    setImages(imgs[0].imgs.filter(img => img.img !== ''));
   }, [setImages, id]);
 
   const backToHome = () => {
@@ -30,6 +31,7 @@ export default function ProductDetail() {
   };
 
   useEffect(() => {
+    window.screen.orientation.lock('portrait');
     fetchProduct();
     fetchImages();
   }, [fetchProduct, fetchImages]);
@@ -43,6 +45,7 @@ export default function ProductDetail() {
         price={ product.price }
         thumbnail={ product.thumbnail }
       />
+      <ProductSlide fadeImages={ images } />
       <div className="back-button">
         <button onClick={ backToHome }>
           <img src={ Return } alt="return-icon" />

@@ -6,7 +6,7 @@ export default function CategoriesLink(props) {
 
   const { setProducts } = useContext(AppContext);
 
-  const { category, id, close } = props;
+  const { icon, alt, id, close, title } = props;
 
   const filterProducts = async () => {
     const filteredProducts = await fetchProductsByCategoryId(id);
@@ -17,7 +17,8 @@ export default function CategoriesLink(props) {
   return (
     <li>
         <button onClick={ filterProducts }>
-          {category}
+          { title }
+          <img src={ icon } alt={ alt } />
         </button>
     </li>
   )

@@ -1,3 +1,9 @@
+    @media screen and (min-width: 768px) {
+        .offc-container {
+            max-width: 100px !important;
+        }
+    }
+
     .category {
         list-style: none;
     }
@@ -8,12 +14,6 @@
         align-items: center;
     }
 
-    .offc-title {
-        width: 100vw;
-        text-align: center;
-        color: #431C00;
-        font-size: 3rem;
-    }
 
     .offc-ul {
         padding-right: 2.1em;
@@ -25,17 +25,52 @@
     }
 
     .offc-ul li {
+        background-color: transparent;
         list-style: none;
-        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+    }
+
+    .offc-ul li:hover {
+      width: 65px;
+    }
+
+    .offc-ul img {
+      width: 100%;
+      max-width: 50px;
+      background-color: transparent;
     }
 
     .offc-ul button {
-        width: 15em;
-        border: 1px solid black;
-        border-radius: 25px;
-        background-color: white;
+      border: none;
+      background-color: transparent;
+      font-size: 13px;
     }
 
+
     .offc {
-        background-color: #B00505;
+      background-color: transparent;
+      border-radius: 30px;
+      border: none;
+    }
+
+    .offc-container {
+      width: 100%;
+      max-width: 65px;
+      background-color: transparent;
+      border: none;
+    }
+
+    .offc-header {
+      background-color: transparent;
+    }
+
+    .offcanvas.offcanvas-end {
+      border: none !important;
+    }
+
+    .btn-close {
+      display: none;
     }

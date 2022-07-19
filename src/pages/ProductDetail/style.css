@@ -1,7 +1,69 @@
+@media screen and (min-width: 375px) {
+  .image-container img {
+    max-width: 37rem !important;
+    height: 37rem !important;
+  }
+
+  .back-button {
+    margin-top: 7rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media screen and (min-width: 393px) {
+  .image-container img {
+    max-width: 40rem !important;
+    height: 40rem !important;
+  }
+
+  .back-button {
+    margin-top: 7rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image-container img {
+    max-width: 50rem !important;
+    height: 50rem !important;
+  }
+
+  .back-button {
+    margin-top: 13rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 13rem !important;
+  }
+  .react-slideshow-container{
+    width: 70vw !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-container img {
+    max-width: 60rem !important;
+    height: 60rem !important;
+  }
+
+  .back-button {
+    margin-top: 17rem !important;
+  }
+  .product-detail-main .product {
+    margin-bottom: 17rem !important;
+  }
+  .react-slideshow-container{
+    width: 55vw !important;
+  }
+}
+
 .product-detail-main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -10,19 +72,43 @@
   justify-content: center;
   border-radius: 30px;
   align-items: center;
-  border: 1px solid black;
-  background-color: green;
-  width: 6rem;
-  height: 6rem;
+  background-color: #6ed47f;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .back-button button {
     width: 100%;
     border: none;
     border-radius: 20px;
-    background-color: green;
+    background-color: #6ed47f;
 }
 
 .back-button img {
-    width: 4rem;
+    width: 2rem;
+}
+
+.react-slideshow-container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 50vh;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 32rem;
+    height: 32rem;
+}
+
+.product-detail-main .product {
+  margin-bottom: 5rem;
 }
