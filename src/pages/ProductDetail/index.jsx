@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import ProductCard from '../../components/ProductCard';
+import ProductCard from '../../components/ProductCard/ProductCard';
 import { useParams } from 'react-router-dom';
 import { fetchProductById } from '../../services/API';
 import ProductSlide from '../../components/ProductSlide';

@@ -22,7 +22,6 @@ export default function SearchBar() {
     const handleClick = async (e) => {
       e.preventDefault();
       const query = await fetchProductsByQuery(search);
-      console.log(query);
       setProducts(query);
     };
 
