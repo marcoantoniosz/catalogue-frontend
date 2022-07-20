@@ -13,6 +13,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
+import M3soft from '../../images/m3soft.png';
+
 
 function Copyright(props) {
   return (
@@ -58,9 +60,7 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#F2055C' }}>
-            <LockOutlinedIcon />
-          </Avatar>
+          <img alt="m3-logo" src={ M3soft } />
           <Typography component="h1" variant="h5">
             Painel de Controle
           </Typography>
