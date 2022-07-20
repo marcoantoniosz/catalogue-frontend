@@ -1,42 +1,42 @@
 @media screen and (min-width: 375px) {
   .image-container img {
-    max-width: 37rem !important;
-    height: 37rem !important;
+    max-width: 370px !important;
+    height: 370px !important;
   }
 
   .back-button {
-    margin-top: 7rem !important;
+    margin-top: 70px !important;
   }
   .product-detail-main .product {
-    margin-bottom: 8rem !important;
+    margin-bottom: 80px !important;
   }
 }
 
 @media screen and (min-width: 393px) {
   .image-container img {
-    max-width: 40rem !important;
-    height: 40rem !important;
+    max-width: 400px !important;
+    height: 400px !important;
   }
 
   .back-button {
-    margin-top: 7rem !important;
+    margin-top: 70px !important;
   }
   .product-detail-main .product {
-    margin-bottom: 8rem !important;
+    margin-bottom: 80px !important;
   }
 }
 
 @media screen and (min-width: 768px) {
   .image-container img {
-    max-width: 50rem !important;
-    height: 50rem !important;
+    max-width: 500px !important;
+    height: 500px !important;
   }
 
   .back-button {
-    margin-top: 13rem !important;
+    margin-top: 130px !important;
   }
   .product-detail-main .product {
-    margin-bottom: 13rem !important;
+    margin-bottom: 130px !important;
   }
   .react-slideshow-container{
     width: 70vw !important;
@@ -45,18 +45,18 @@
 
 @media screen and (min-width: 1024px) {
   .image-container img {
-    max-width: 60rem !important;
-    height: 60rem !important;
+    max-width: 600px !important;
+    height: 600px !important;
   }
 
   .back-button {
-    margin-top: 17rem !important;
+    margin-top: 170px !important;
   }
   .product-detail-main .product {
-    margin-bottom: 17rem !important;
+    margin-bottom: 170px !important;
   }
   .react-slideshow-container{
-    width: 55vw !important;
+    width: 550px !important;
   }
 }
 
@@ -73,10 +73,10 @@
   border-radius: 30px;
   align-items: center;
   background-color: #6ed47f;
-  width: 3rem;
-  height: 3rem;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  width: 60px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .back-button button {
@@ -87,7 +87,7 @@
 }
 
 .back-button img {
-    width: 2rem;
+    width: 40px;
 }
 
 .react-slideshow-container {
@@ -105,10 +105,10 @@
 
 .image-container img {
     width: 100%;
-    max-width: 32rem;
-    height: 32rem;
+    max-width: 320px;
+    height: 320px;
 }
 
 .product-detail-main .product {
-  margin-bottom: 5rem;
+  margin-bottom: 50px;
 }
