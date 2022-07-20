@@ -16,7 +16,7 @@ import M3soft from '../../images/m3soft.png';
 
 function Copyright(props) {
   return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
+    <Typography sx={{ fontSize: "100% !important" }} variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://www.m3soft.com.br/">
         M3Soft
@@ -48,7 +48,7 @@ export default function SignIn() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
+      <Container sx={{ fontSize: "2rem" }} component="main" maxWidth="xs">
         <CssBaseline />
         <Box
           sx={{
