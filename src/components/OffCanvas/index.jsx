@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import CategoriesLink from '../CategoriesLink';
 import { Turn as Hamburger } from 'hamburger-react';
-import burger from '../../icons/burger.png';
-import pizza from '../../icons/pizza.png';
-import drink from '../../icons/drink.png';
+import computer from '../../icons/computer.svg';
+import sm from '../../icons/sm.svg';
+import videogame from '../../icons/videogame.svg';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './style.css'
 
@@ -21,9 +21,9 @@ export default function Header() {
           </Offcanvas.Header>
           <Offcanvas.Body className="offc">
             <ul className="offc-ul">
-              <CategoriesLink title="burguers" id="000001" close={ handleClose } icon={ burger } />
-              <CategoriesLink title="drinks" id="000003" close={ handleClose } icon={ drink } />
-              <CategoriesLink title="pizzas" id="000002" close={ handleClose } icon={ pizza } />
+              <CategoriesLink title="computadores" id="000001" close={ handleClose } icon={ computer } />
+              <CategoriesLink title="smartphones" id="000002" close={ handleClose } icon={ sm } />
+              <CategoriesLink title="videogames" id="000004" close={ handleClose } icon={ videogame } />
             </ul>
           </Offcanvas.Body>
         </Offcanvas>

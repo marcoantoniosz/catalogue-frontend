@@ -18,21 +18,21 @@ export default function ActionAreaCard(props) {
   }
 
   return (
-    <Card onClick={ handleClick } sx={{ maxWidth: 300 }}>
+    <Card onClick={ handleClick } sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
+          sx={{ width: 200 }}
           image={ thumbnail }
           alt={ title }
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography sx={{ fontSize: 17 }} gutterBottom variant="h1" component="div">
             { title }
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <PaymentsIcon />
-            `R$ { price }`
+            <PaymentsIcon sx={ { marginRight: 1 } } />
+            R$ { price }
           </Typography>
         </CardContent>
       </CardActionArea>
