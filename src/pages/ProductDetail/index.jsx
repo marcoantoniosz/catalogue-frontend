@@ -23,7 +23,7 @@ export default function ProductDetail() {
 
   const fetchImages = useCallback(async () => {
     const imgs = await fetchImagesByProductId(id);
-    setImages(imgs[0].imgs.filter(img => img.img !== ''));
+    setImages(imgs[0].imgs.filter(img => img.img !== '' && img.img !== null));
   }, [setImages, id]);
 
   const backToHome = () => {

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import CategoriesLink from '../CategoriesLink';
 import { Turn as Hamburger } from 'hamburger-react';
-import burger from '../../icons/burger.png';
-import pizza from '../../icons/pizza.png';
-import drink from '../../icons/drink.png';
+import computer from '../../icons/computer.png';
+import phone from '../../icons/phone.png';
+import videogame from '../../icons/videogame.png';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './style.css'
 
@@ -15,15 +15,15 @@ export default function Header() {
 
     return (
       <div className="header-offcanvas-container">
-        <Hamburger color="#B00505" toggled={ show } toggle={ handleShow } />
+        <Hamburger color="#2958AD" toggled={ show } toggle={ handleShow } />
         <Offcanvas placement="end" className="offc-container" show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
           </Offcanvas.Header>
           <Offcanvas.Body className="offc">
             <ul className="offc-ul">
-              <CategoriesLink title="burguers" id="000001" close={ handleClose } icon={ burger } />
-              <CategoriesLink title="drinks" id="000003" close={ handleClose } icon={ drink } />
-              <CategoriesLink title="pizzas" id="000002" close={ handleClose } icon={ pizza } />
+              <CategoriesLink title="PCs" id="000001" close={ handleClose } icon={ computer } />
+              <CategoriesLink title="Phones" id="000002" close={ handleClose } icon={ phone } />
+              <CategoriesLink title="Games" id="000004" close={ handleClose } icon={ videogame } />
             </ul>
           </Offcanvas.Body>
         </Offcanvas>
