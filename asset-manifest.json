@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/catalogue-frontend/static/css/main.e38cf83f.css",
-    "main.js": "/catalogue-frontend/static/js/main.6ee5a3db.js",
-    "static/media/marca.png": "/catalogue-frontend/static/media/marca.5a3ea656de8d436c0a3f.png",
-    "static/media/logo.png": "/catalogue-frontend/static/media/logo.238b2d21ed8eedc0650a.png",
-    "static/media/pizza.png": "/catalogue-frontend/static/media/pizza.7d9f02ddda5ac511d95a.png",
+    "main.css": "/catalogue-frontend/static/css/main.f7fc3a0b.css",
+    "main.js": "/catalogue-frontend/static/js/main.15ca141c.js",
+    "static/media/logo.png": "/catalogue-frontend/static/media/logo.c689161083fc1c20a70c.png",
     "static/media/whatsapp.png": "/catalogue-frontend/static/media/whatsapp.299db583fa407048decb.png",
     "static/media/instagram.png": "/catalogue-frontend/static/media/instagram.e946a2697ef0bbbc9b04.png",
+    "static/media/computer.png": "/catalogue-frontend/static/media/computer.9c4a5f0f087dc7615544.png",
+    "static/media/videogame.png": "/catalogue-frontend/static/media/videogame.56ae8b714d4d9441a2b5.png",
     "index.html": "/catalogue-frontend/index.html",
     "static/media/return.svg": "/catalogue-frontend/static/media/return.d91c65813d6c141422745820f45cccd1.svg",
-    "main.e38cf83f.css.map": "/catalogue-frontend/static/css/main.e38cf83f.css.map",
-    "main.6ee5a3db.js.map": "/catalogue-frontend/static/js/main.6ee5a3db.js.map"
+    "main.f7fc3a0b.css.map": "/catalogue-frontend/static/css/main.f7fc3a0b.css.map",
+    "main.15ca141c.js.map": "/catalogue-frontend/static/js/main.15ca141c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38cf83f.css",
-    "static/js/main.6ee5a3db.js"
+    "static/css/main.f7fc3a0b.css",
+    "static/js/main.15ca141c.js"
   ]
 }
