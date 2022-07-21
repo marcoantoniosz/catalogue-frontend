@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material';
 import React from 'react';
 import Dashboard from '../../components/Dashboard/Dashboard';
 import ProductForm from '../../components/ProductForm';
@@ -6,7 +5,7 @@ import ProductForm from '../../components/ProductForm';
 export default function NewProduct() {
   return (
     <Dashboard>
-      <ProductForm />
+      <ProductForm text="Novo Produto" />
     </Dashboard>
   )
 }

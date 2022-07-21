@@ -5,6 +5,7 @@ import { fetchAllCategories } from '../services/API';
 export default function Provider({ children }) {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [edit, setEdit] = useState([]);
 
   const fetchCategories = useCallback(async () => {
     const response = await fetchAllCategories();
@@ -17,7 +18,9 @@ export default function Provider({ children }) {
     setProducts,
     categories,
     setCategories,
-    fetchCategories
+    fetchCategories,
+    edit,
+    setEdit,
   };
 
   return (

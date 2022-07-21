@@ -1,11 +1,11 @@
-import { Typography } from '@mui/material';
 import React from 'react';
 import Dashboard from '../../components/Dashboard/Dashboard';
+import CategoryForm from '../../components/CategoryForm';
 
 export default function NewCategory() {
   return (
     <Dashboard>
-      <Typography variant="h4">New Category</Typography>
+      <CategoryForm text="Nova Categoria" />
     </Dashboard>
   )
 }

@@ -54,57 +54,6 @@ export default function ProductForm(props) {
               error={!!errors?.descricao}
               helperText={errors?.descricao ? errors.descricao.message : null}
             />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id="descricaoResumida"
-              label="Descrição Resumida"
-              name="descricaoResumida"
-              autoFocus
-              {...register("descricaoResumida")}
-              error={!!errors?.descricaoResumida}
-              helperText={errors?.descricaoResumida ? errors.descricaoResumida.message : null}
-            />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id="venda"
-              label="Venda"
-              name="venda"
-              autoFocus
-              type="number"
-              {...register("venda")}
-              error={!!errors?.venda}
-              helperText={errors?.venda ? errors.venda.message : null}
-            />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id="categoria"
-              label="Categoria"
-              name="categoria"
-              autoFocus
-              type="text"
-              {...register("categoria")}
-              error={!!errors?.categoria}
-              helperText={errors?.categoria ? errors.categoria.message : null}
-            />
-            <TextField
-              margin="normal"
-              required
-              fullWidth
-              id="saldo"
-              label="Saldo"
-              name="saldo"
-              autoFocus
-              type="number"
-              {...register("saldo")}
-              error={!!errors?.saldo}
-              helperText={errors?.saldo ? errors.saldo.message : null}
-            />
             <Button
               type="submit"
               fullWidth

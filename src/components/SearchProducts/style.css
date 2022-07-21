@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  .header-form input {
+    width: 500px !important;
+  }
+}
+
+.header-form input {
+    border: none;
+    border-radius: 30px;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: 1em;
+    font-family: "FontAwesome";
+    border: 2px solid #2958AD;
+    width: 200px;
+}

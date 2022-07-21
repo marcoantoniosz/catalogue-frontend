@@ -11,6 +11,8 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import CategoryIcon from '@mui/icons-material/Category';
 import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import ColorLensIcon from '@mui/icons-material/ColorLens';
+import DeleteIcon from '@mui/icons-material/Delete';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 export default function MainListItems() {
   const navigate = useNavigate();

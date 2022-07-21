@@ -5,7 +5,7 @@ import Dashboard from '../../components/Dashboard/Dashboard';
 export default function Custom() {
   return (
     <Dashboard>
-      <Typography variant="h4">Custom</Typography>
+      <Typography sx={{ mt: 8, textAlign: "center", mb: 40 }} variant="h4">Customização</Typography>
     </Dashboard>
   )
 }

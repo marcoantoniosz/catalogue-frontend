@@ -1,11 +1,11 @@
-import { Typography } from '@mui/material';
 import React from 'react';
 import Dashboard from '../../components/Dashboard/Dashboard';
+import ImagesForm from '../../components/ImagesForm';
 
-export default function NewImages() {
+export default function NewProduct() {
   return (
     <Dashboard>
-      <Typography variant="h4">New Images</Typography>
+      <ImagesForm text="Adicionar Imagens" />
     </Dashboard>
   )
 }
