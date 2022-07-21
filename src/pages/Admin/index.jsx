@@ -8,7 +8,7 @@ export default function Admin() {
   return (
     <Dashboard>
      <Container maxWidth="sm">
-			<Box sx={{ mb: 40, display: "flex", justifyContent: "center"}}>
+			<Box sx={{ mb: 40, pt: 5, display: "flex", justifyContent: "center"}}>
 				<img src={M3soft} alt="M3soft" />
 			</Box>
      </Container>

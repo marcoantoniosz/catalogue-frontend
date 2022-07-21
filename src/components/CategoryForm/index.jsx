@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function ProductForm(props) {
 
-  const { text } = props;
+  const { text, cname, del } = props;
 
   const navigate = useNavigate();
 
@@ -45,6 +45,7 @@ export default function ProductForm(props) {
             <TextField
               margin="normal"
               required
+              defaultValue={ cname }
               fullWidth
               id="descricao"
               label="Descrição"
@@ -61,7 +62,8 @@ export default function ProductForm(props) {
               sx={{ mt: 20, mb: 2, bgcolor: '#2405F2' }}
             >
               Salvar
-            </Button> 
+            </Button>
+            { del } 
           </Box>
         </Box>
       </Container>

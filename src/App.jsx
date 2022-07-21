@@ -10,6 +10,8 @@ import NewImages from "./pages/Admin/NewImages";
 import EditProduct from "./pages/Admin/EditProduct";
 import EditCategory from "./pages/Admin/EditCategory";
 import Custom from "./pages/Admin/Custom";
+import EditProductId from "./pages/Admin/EditProductId";
+import EditCategoryId from "./pages/Admin/EditCategoryId";
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
       <Route path="/admin/edit-product" element={<EditProduct />} />
       <Route path="/admin/edit-category" element={<EditCategory />} />
       <Route path="/admin/custom" element={<Custom />} />
+      <Route path="/admin/edit-product/:id" element={<EditProductId />} />
+      <Route path="/admin/edit-category/:id" element={<EditCategoryId />} />
     </Routes>
   );
 }

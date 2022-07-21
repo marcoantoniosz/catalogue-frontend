@@ -37,7 +37,7 @@ export default function EditProduct() {
           <Typography variant="h4" component="h1" gutterBottom>
             Editar Produto
           </Typography>
-          <Table rows={products} />
+          <Table id={ products.id } rows={products} />
         </Box>
       </Container>
     </Dashboard>

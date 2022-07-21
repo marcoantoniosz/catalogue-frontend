@@ -10,6 +10,12 @@ export const fetchProductsByCategoryId = async (categoryId) => {
     return productsJSON;
 };
 
+export const fetchCategoryById = async (categoryId) => {
+    const category = await fetch(`https://backendcatalogue.herokuapp.com/categories/${categoryId}`);
+    const categoryJSON = await category.json();
+    return categoryJSON;
+};
+
 export const fetchProductById = async (id) => {
     const product = await fetch(`https://backendcatalogue.herokuapp.com/products/${id}`);
     const productJSON = await product.json();

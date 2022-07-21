@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function ProductForm(props) {
 
-  const { text } = props;
+  const { text, pname, psell, pcategory, del } = props;
 
   const navigate = useNavigate();
 
@@ -46,6 +46,7 @@ export default function ProductForm(props) {
               margin="normal"
               required
               fullWidth
+              defaultValue={ pname }
               id="descricao"
               label="Descrição"
               name="descricao"
@@ -71,6 +72,7 @@ export default function ProductForm(props) {
               required
               fullWidth
               id="venda"
+              defaultValue={ psell }
               label="Venda"
               name="venda"
               autoFocus
@@ -86,6 +88,7 @@ export default function ProductForm(props) {
               id="categoria"
               label="Categoria"
               name="categoria"
+              defaultValue={ pcategory }
               autoFocus
               type="text"
               {...register("categoria")}
@@ -112,7 +115,8 @@ export default function ProductForm(props) {
               sx={{ mt: 3, mb: 2, bgcolor: '#2405F2' }}
             >
               Salvar
-            </Button> 
+            </Button>
+            { del }
           </Box>
         </Box>
       </Container>

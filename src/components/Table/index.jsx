@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { DataGrid } from '@mui/x-data-grid';
 
 const columns = [
@@ -12,10 +13,14 @@ const columns = [
 ];
 
 export default function DataTable(props) {
-    const { rows } = props;
+  const navigate = useNavigate();
+    const { rows, id } = props;
   return (
     <div style={{ height: 400, width: '100%' }}>
       <DataGrid
+        onCellClick={(cell) => {
+          navigate(`/admin/edit-product/${cell.id}`);
+        }}
         rows={rows}
         columns={columns}
         pageSize={5}
