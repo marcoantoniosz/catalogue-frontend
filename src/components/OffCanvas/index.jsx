@@ -16,14 +16,14 @@ export default function Header() {
     return (
       <div className="header-offcanvas-container">
         <Hamburger color="#2958AD" toggled={ show } toggle={ handleShow } />
-        <Offcanvas placement="end" className="offc-container" show={show} onHide={handleClose}>
+        <Offcanvas scroll placement="end" className="offc-container" show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
           </Offcanvas.Header>
           <Offcanvas.Body className="offc">
             <ul className="offc-ul">
-              <CategoriesLink title="PCs" id="000001" close={ handleClose } icon={ computer } />
-              <CategoriesLink title="Phones" id="000002" close={ handleClose } icon={ phone } />
-              <CategoriesLink title="Games" id="000004" close={ handleClose } icon={ videogame } />
+              <CategoriesLink title="computadores" id="000001" close={ handleClose } icon={ computer } />
+              <CategoriesLink title="smartphones" id="000002" close={ handleClose } icon={ phone } />
+              <CategoriesLink title="videogames" id="000004" close={ handleClose } icon={ videogame } />
             </ul>
           </Offcanvas.Body>
         </Offcanvas>
