@@ -38,7 +38,7 @@ export default function ProductForm(props) {
             alignItems: 'center',
           }}
         >
-          <Typography sx={{ pt: 3 }} component="h1" variant="h5">
+          <Typography sx={{ pt: 3, pb: 20 }} component="h1" variant="h5">
             { text }
           </Typography>
           <Box component="form" onSubmit={handleSubmit(onSubmit)} noValidate sx={{ mt: 1 }}>
@@ -58,7 +58,7 @@ export default function ProductForm(props) {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2, bgcolor: '#2405F2' }}
+              sx={{ mt: 20, mb: 2, bgcolor: '#2405F2' }}
             >
               Salvar
             </Button> 

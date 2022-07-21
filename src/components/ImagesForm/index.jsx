@@ -79,7 +79,6 @@ export default function ProductForm(props) {
               fullWidth
               type="file"
               id="image1"
-              label="Imagem 1"
               name="image1"
               autoFocus
               {...register("image1")}
