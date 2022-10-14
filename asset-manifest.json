@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/catalogue-frontend/static/css/main.2f098249.css",
-    "main.js": "/catalogue-frontend/static/js/main.e86cd648.js",
-    "static/media/logo.png": "/catalogue-frontend/static/media/logo.c689161083fc1c20a70c.png",
+    "main.css": "/catalogue-frontend/static/css/main.0c1774d6.css",
+    "main.js": "/catalogue-frontend/static/js/main.b3b68fa4.js",
+    "static/media/acessorios.png": "/catalogue-frontend/static/media/acessorios.413d8cb63fb1afc7cfc1.png",
+    "static/media/bancos.png": "/catalogue-frontend/static/media/bancos.8db39b798261ba094ee6.png",
     "static/media/whatsapp.png": "/catalogue-frontend/static/media/whatsapp.299db583fa407048decb.png",
     "static/media/instagram.png": "/catalogue-frontend/static/media/instagram.e946a2697ef0bbbc9b04.png",
-    "static/media/computer.png": "/catalogue-frontend/static/media/computer.9c4a5f0f087dc7615544.png",
-    "static/media/videogame.png": "/catalogue-frontend/static/media/videogame.56ae8b714d4d9441a2b5.png",
+    "static/media/whatsapp.svg": "/catalogue-frontend/static/media/whatsapp.187b26e281548321e37cea6b1d97d41e.svg",
     "index.html": "/catalogue-frontend/index.html",
     "static/media/return.svg": "/catalogue-frontend/static/media/return.d91c65813d6c141422745820f45cccd1.svg",
-    "main.2f098249.css.map": "/catalogue-frontend/static/css/main.2f098249.css.map",
-    "main.e86cd648.js.map": "/catalogue-frontend/static/js/main.e86cd648.js.map"
+    "main.0c1774d6.css.map": "/catalogue-frontend/static/css/main.0c1774d6.css.map",
+    "main.b3b68fa4.js.map": "/catalogue-frontend/static/js/main.b3b68fa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f098249.css",
-    "static/js/main.e86cd648.js"
+    "static/css/main.0c1774d6.css",
+    "static/js/main.b3b68fa4.js"
   ]
 }
